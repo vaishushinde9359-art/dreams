@@ -1,0 +1,80 @@
+/* PurchaseCard.css */
+
+.purchase-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 1.5rem 1rem;
+  padding-left: 30px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.purchase-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.purchase-price {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2563eb;
+  text-align: center;
+}
+
+.purchase-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.purchase-actions .btn {
+  width: 100%;
+  padding: 0.75rem 0;
+  font-weight: 500;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Primary Button */
+.btn-primary {
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+  margin-right: 20px;
+}
+
+.btn-primary:hover {
+  background-color: #1e40af;
+}
+
+/* Secondary Button */
+.btn-secondary {
+  height: 42px;
+  background-color: #f3f4f6;
+  color: #111827;
+  border: none;
+  padding: 10px 25px !important;
+}
+
+.btn-secondary:hover {
+  background-color: #e5e7eb;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .purchase-card {
+    padding: 1rem;
+  }
+
+  .purchase-price {
+    font-size: 1.3rem;
+  }
+
+  .purchase-actions .btn {
+    padding: 0.65rem 0;
+  }
+}

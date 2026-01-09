@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "title": "Portfolio Website",
+    "shortDescription": "A responsive React portfolio.",
+    "overview": "This project is a responsive React portfolio website...",
+    "features": ["Responsive Design", "React Components", "Routing"],
+    "outcomes": ["Learn React", "Build Portfolio", "Practice CSS"],
+    "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80",
+    "price": 500,
+    "college": "ABC College",
+    "collegeInfo": "is a leading institution in web development.",
+    "author": { "name": "John Doe", "bio": "A passionate React developer." }
+  },
+  {
+    "id": 2,
+    "title": "E-Commerce App",
+    "shortDescription": "A full-stack shopping app.",
+    "overview": "This project is a full-stack shopping application...",
+    "features": ["React Frontend", "Node.js Backend", "MongoDB Database"],
+    "outcomes": ["Full-Stack Skills", "API Integration", "Database Handling"],
+    "image": "https://images.unsplash.com/photo-1581091870628-60b482c63e92?auto=format&fit=crop&w=800&q=80",
+    "price": 1000,
+    "college": "XYZ University",
+    "collegeInfo": "offers top courses in full-stack development.",
+    "author": { "name": "Jane Smith", "bio": "Full-Stack Developer and Instructor." }
+  },
+  {
+    "id": 3,
+    "title": "Blog Website",
+    "shortDescription": "A platform for writing and sharing blogs.",
+    "overview": "This project is a blog website built with React and Node.js...",
+    "features": ["Markdown Support", "User Authentication", "Comment System"],
+    "outcomes": ["Learn MERN Stack", "Implement Authentication", "Handle User Input"],
+    "image": "https://images.unsplash.com/photo-1504691342899-8f8e5a47a0a0?auto=format&fit=crop&w=800&q=80",
+    "price": 700,
+    "college": "LMN Institute",
+    "collegeInfo": "specializes in web development courses.",
+    "author": { "name": "Alice Johnson", "bio": "A writer and web developer." }
+  },
+  {
+    "id": 4,
+    "title": "Task Manager App",
+    "shortDescription": "An app to manage daily tasks.",
+    "overview": "This project is a task manager application built with Vue.js...",
+    "features": ["Task Prioritization", "Due Dates", "Notifications"],
+    "outcomes": ["Learn Vue.js", "Implement Local Storage", "Manage State"],
+    "image": "https://images.unsplash.com/photo-1588702547923-7093a6c3ba33?auto=format&fit=crop&w=800&q=80",
+    "price": 600,
+    "college": "OPQ College",
+    "collegeInfo": "offers courses in modern JavaScript frameworks.",
+    "author": { "name": "Bob Lee", "bio": "A productivity enthusiast and developer." }
+  },
+  {
+    "id": 5,
+    "title": "Weather Dashboard",
+    "shortDescription": "A dashboard to check weather forecasts.",
+    "overview": "This project is a weather dashboard using the OpenWeatherMap API...",
+    "features": ["API Integration", "Dynamic UI", "Search Functionality"],
+    "outcomes": ["Learn API Consumption", "Handle Asynchronous Data", "Design Responsive Layout"],
+    "image": "https://images.unsplash.com/photo-1501973801540-537f08ccae7b?auto=format&fit=crop&w=800&q=80",
+    "price": 800,
+    "college": "RST University",
+    "collegeInfo": "provides courses in data visualization and APIs.",
+    "author": { "name": "Charlie Kim", "bio": "A data science enthusiast and developer." }
+  }
+]

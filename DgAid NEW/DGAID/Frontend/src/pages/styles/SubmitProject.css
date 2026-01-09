@@ -1,0 +1,146 @@
+/* Container */
+.form-container {
+  max-width: 650px;
+  margin: 2rem auto;
+  
+  padding: 10px;
+  border-radius: 12px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+  /* transition: all 0.3s ease; */
+}
+
+/* Headings */
+.Headings {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #222;
+}
+
+.paragraph {
+  text-align: center;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+/* Form layout */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.input-label {
+  display: block;
+ margin: 5px 0px 5px 5px;
+  font-weight: 600;
+  color: #333;
+}
+
+
+/* Input field styles (text, number, select, textarea) */
+.input-field {
+  width: 85%;
+  padding: 0.65rem;
+  border: 1.5px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+#description {
+  width: 84%;
+  min-height: 100px;
+  resize: vertical;
+  margin-bottom: 10px;
+}
+
+.input-field:focus {
+  border-color: #007BFF;
+  box-shadow: 0 0 1px rgba(0, 123, 255, 0.5);
+}
+
+
+.submit-btn {
+  /* padding: 0.8rem; */
+  height: 50px;
+  width: 50%;
+  background-color: #007BFF;
+  color: white;
+  position: relative;
+  left: 25%;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+
+.upload-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.upload {
+  color: #333;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.custom-btn {
+  padding: 8px 16px;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  height: auto;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.custom-btn:hover {
+  background-color: #0056b3;
+}
+
+.file-input {
+  display: none; /* hide the native file input */
+}
+
+
+.custom-btn {
+  display: inline-block;
+  padding: 8px 18px;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.custom-btn:hover {
+  background-color:#0056b3;
+}
+.section{
+  border-radius: 10px;
+  padding-left: 20px;
+  border: none;
+   box-shadow: 0 10px 50px rgba(0, 0, 0, 0.12);
+   /* background-color: #0056b3; */
+}
+.upload-section{
+  width: 50%;
+  /* padding: 0px 50px 0px 50px; */
+  /* background-color: #007BFF; */
+}

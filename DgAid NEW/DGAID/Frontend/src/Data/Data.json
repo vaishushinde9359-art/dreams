@@ -1,0 +1,44 @@
+{
+  "categories": [
+  {
+    "title": "Web Development",
+    "desc": "Build dynamic and responsive web applications.",
+    "img": "https://cdn-icons-png.flaticon.com/512/888/888857.png" 
+  },
+  {
+    "title": "Graphic Design",
+    "desc": "Create beautiful visuals and digital art.",
+    "img": "https://cdn-icons-png.flaticon.com/512/2920/2920235.png" 
+  },
+  {
+    "title": "3D Modeling",
+    "desc": "Design and render intricate 3D visual applications.",
+    "img": "https://cdn-icons-png.flaticon.com/512/3592/3592078.png" 
+  },
+  {
+    "title": "Mobile Apps",
+    "desc": "Develop innovative and user-friendly mobile applications.",
+    "img": "https://cdn-icons-png.flaticon.com/512/126/126519.png" 
+  },
+  {
+    "title": "Data Science",
+    "desc": "Analyze complex data and build intelligent solutions.",
+    "img": "https://cdn-icons-png.flaticon.com/512/1087/1087961.png" 
+  },
+  {
+    "title": "Game Development",
+    "desc": "Craft immersive and interactive game experiences.",
+    "img": "https://cdn-icons-png.flaticon.com/512/820/820251.png" 
+  },
+  {
+    "title": "AI/ML Projects",
+    "desc": "Innovate with artificial intelligence and machine learning.",
+    "img": "https://cdn-icons-png.flaticon.com/512/1004/1004944.png" 
+  },
+  {
+    "title": "UI/UX Design",
+    "desc": "Design creative and user-friendly digital experiences.",
+    "img": "https://cdn-icons-png.flaticon.com/512/339/339626.png" 
+  }
+]
+}

@@ -1,0 +1,78 @@
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #e0f7fa, #fce4ec);
+  }
+  
+  .register-box {
+    width: 380px;
+    padding: 30px;
+    background: linear-gradient(135deg, #ffd5ec, #d4e1ff);
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  }
+  
+  .register-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #333;
+  }
+  
+  .register-box label {
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 10px;
+    display: block;
+    color: #333;
+  }
+  
+  .register-box input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+    font-size: 14px;
+  }
+  
+  .register-box input:focus {
+    border-color: #a855f7;
+    box-shadow: 0 0 4px rgba(168, 85, 247, 0.4);
+  }
+  
+  .register-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  
+  .btn-primary {
+    background: linear-gradient(135deg, #8a2be2, #ff00ff);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .btn-secondary {
+    background: transparent;
+    border: 2px solid #8a2be2;
+    color: #8a2be2;
+    padding: 8px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .btn-primary:hover,
+  .btn-secondary:hover {
+    opacity: 0.9;
+  }
+  

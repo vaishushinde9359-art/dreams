@@ -1,0 +1,202 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.home-container {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  width: 100%;
+}
+.main-hero{
+  height: fit-content;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+
+}
+.Dgaid{
+  
+  display: flex;
+  gap: 10px;
+  color: rgb(72, 72, 232);
+  /* background-color: yellowgreen; */
+}
+.Aid{
+  color: black;
+}
+
+/* Hero Section */
+.hero {
+  background: url("../assets/DgAIDImg.png") center/cover no-repeat;
+  height: 400px;
+  width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-content {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  height: 200px;
+  border-radius: 10px;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color: white;
+}
+.btn-primary {
+  position: relative;
+  display: inline-block;
+  padding: 10px 25px;
+  font-size: 1rem;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  /* Vibrant gradient colors */
+  background: linear-gradient(90deg, #3b82f6, #8b5cf6, #f472b6, #3b82f6);
+  background-size: 300% 100%;  /* larger background for smooth animation */
+  animation: gradientFlow 4s linear infinite;
+  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);
+  transition: transform 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
+}
+
+@keyframes gradientFlow {
+  0% { background-position: 100% 0; }
+  50% { background-position: 0 0; }
+  100% { background-position: 100% 0; }
+}
+
+/* Categories */
+.categories {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 60px 20px;
+  background-color: #f9fafb;
+}
+
+.categories h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.category-grid {
+  
+  display: flex; 
+  justify-content: center;     
+  align-items: center;   
+  flex-wrap: wrap;        
+  gap: 25px;               
+   
+width: 70%;
+
+}
+
+.category-card {
+  height: 200px;
+  width: 270px;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+ padding: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+ background: linear-gradient(135deg, #6366f1, #f9ffee, #6366f1);
+  background-size: 300% 300%;
+  animation: moveGradient 5s linear infinite;
+  box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.btn-secondary:hover {
+  transform: scale(1.05);
+}
+.category-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.category-card h3 {
+  font-size: 1.2rem;
+  color: #1e40af;
+  margin-bottom: 10px;
+}
+
+/* Showcase */
+.showcase {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+ gap: 10px;
+  text-align: center;
+  background: #eef2ff;
+  padding: 50px 20px;
+}
+.btn-secondary {
+  position: relative;
+  display: inline-block;
+  padding: 12px 30px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff;
+background: linear-gradient(135deg, #004e92, #0cbaba, #00ffcc);
+
+  background-size: 300% 300%;
+  animation: moveGradient 5s linear infinite;
+  box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.btn-secondary:hover {
+  transform: scale(1.05);
+}
+.category-card img{
+  width: 50px;
+  border: 1px solid black;
+  border-radius: 50%;
+margin-bottom: 10px;
+}
+@keyframes moveGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+

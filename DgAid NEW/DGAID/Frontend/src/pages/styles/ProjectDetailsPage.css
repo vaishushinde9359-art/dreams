@@ -1,0 +1,78 @@
+.project-details-page {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.back-btn {
+  margin-bottom: 20px;
+}
+
+/* Hero section */
+.hero-section {
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+/* Grid layout */
+.project-details-grid {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.project-info {
+  flex: 2;
+  min-width: 300px;
+}
+
+.project-title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.college-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.college-icon {
+  color: #3b82f6;
+}
+
+/* Sidebar */
+.purchase-info {
+  flex: 1;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .project-details-grid {
+    flex-direction: column;
+  }
+
+  .hero-section {
+    height: 300px;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-section {
+    height: 200px;
+  }
+
+  .project-title {
+    font-size: 1.5rem;
+  }
+}
